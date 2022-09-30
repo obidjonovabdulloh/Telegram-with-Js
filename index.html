@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <main class="telegram_main">
+        <div class="container">
+            <div class="olo"></div>
+            <div class="addcon">
+                <p>SureName</p>
+                <input type="text" id="user" placeholder="Написать..." min="2" max="9" required>
+
+                <p>Name</p>
+                <input type="text" id="names" placeholder="Написать..." min="2" max="5" required>
+                <br>
+
+                <button id="addButton">Add</button>
+            </div>
+
+
+
+            <div class="fit"></div>
+            <div class="contacs_fis">
+                <input type="search" placeholder="search...." id="searchh">
+                <ul class="akaunt_u">
+                    <li class="lil itemm">
+                        <img src="https://i.pinimg.com/236x/5a/09/de/5a09de0ffde4591db1688d5b3f4814a5.jpg?nii=t"
+                            alt="photo">
+                        <div class="infor_cc">
+                            <h2 class="h2_name">Aizen Souske</h2>
+                        </div>
+                    </li>
+                    <li class="ili itemm">
+                        <img src="https://animehappy.ru/image/cache/catalog/%20значки/Пак_26.04.22/Bleach/Byakuya%20Kuchiki/uytu-228x228.jpg"
+                            alt="photo">
+                        <div class="infor_cc">
+                            <h2>Kuchiki Byakuya</h2>
+                        </div>
+                    </li>
+                    <li class="itemm lil">
+                        <img src="https://pbs.twimg.com/profile_images/1394463205104226306/QtrDhHdu_400x400.jpg"
+                            alt="photo">
+                        <div class="infor_cc">
+                            <h2>Ichigo kurosaki</h2>
+                        </div>
+                    </li>
+                    <li class="itemm ull">
+                        <img src="https://avatars.mds.yandex.net/i?id=21d8d8855faff9cb7bcbf9c4c13de3bf-4298412-images-thumbs&n=13"
+                            alt="photo">
+                        <div class="infor_cc">
+                            <h2>Renji Abaray</h2>
+                        </div>
+                    </li>
+                    <li>
+                        <button id="add">Add Contact</button>
+                    </li>
+                </ul>
+            </div>
+            <div class="div_menu">
+                <button class="menu_click">
+                    <i class='bx bx-menu'></i>
+                </button>
+
+
+                <div class="menug"></div>
+                <div class="qwert">
+                    <div class="glavniy_menu">
+                        <div class="menu_boshi">
+                            <img src="./img/photo_2022-06-03_16-16-22.jpg" alt="photo">
+                            <div class="p_s">
+                                <p class="menu_name">
+                                    Urahara Kiske
+                                </p>
+                                <p class="menu_subtext">
+                                    +998 90 063 03 38
+                                </p>
+                            </div>
+                        </div>
+                        <div class="menu_informations">
+                            <ul class="infors">
+                                <li class="menu_infors">
+                                    <button class="menu_button">
+                                        <i class='bx bx-group'></i>
+                                        <p class="menu_texts">New Group</p>
+                                    </button>
+                                </li>
+                                <li class="menu_infors">
+                                    <button class="menu_buttons">
+                                        <i class='bx bxs-contact'></i>
+                                        <p class="menu_texts">Contacts</p>
+                                    </button>
+
+                                </li>
+                                <li id="settings" class="menu_infors">
+                                    <button class="setting_button " id="myBtn">
+                                        <i class='bx bx-wrench'></i>
+                                        <p class="menu_texts">Settings</p>
+                                    </button>
+                                </li>
+                               <li class="pidor">
+                                    <div class="eye">
+                                        <p class="asa">Light</p>
+                                    </div>
+                                    <label class="switch">
+                                        <input type="checkbox">
+                                        <span class="slider round"></span>
+                                    </label>
+                               </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="set_meti"></div>
+            <div class="set">
+                <div class="set_item ">
+                    <div class="set_icons">
+                        <div class="dam_boy">
+                            <h2>Настройки</h2>
+                            <div class="icons_set">
+                                <i class='bx bx-dots-vertical-rounded ver_bx'></i>
+                                <i class='bx bx-x button_bx'></i>
+                            </div>
+                            <div class="thre_ves">
+                                <ul>
+                                    <li>
+                                        <i class='bx bxs-user-circle'></i>
+                                        <p>Добавить аккаунт</p>
+                                    </li>
+                                    <li class="liilli">
+                                        <i class='bx bx-window-close'></i>
+                                        <p>Выйти</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="set_infor_div">
+                            <div class="forin_div">
+                                <img src="./img/photo_2022-06-03_16-16-22.jpg" alt="photo">
+                                <div class="infor_set">
+                                    <h2>Urahara Kiske</h2>
+                                    <p class="p_set">+998 90 063 03 38</p>
+                                    <p class="set_p">@Bankai_02</p>
+                                </div>
+                            </div>
+                            <ul class="set_buttons">
+                                <li>
+                                    <i class='bx bxs-user-circle ba'></i>
+                                    <p>Изменить профиль</p>
+                                </li>
+                                <li>
+                                    <i class='bx bxs-bell bc'></i>
+                                    <p>Уведомления и звуки</p>
+                                </li>
+                                <li>
+                                    <i class='bx bx-lock bv'></i>
+                                    <p>Конфиденциалность</p>
+                                </li>
+                                <li>
+                                    <i class='bx bxs-message-rounded bl'></i>
+                                    <p>Настройки чатов</p>
+                                </li>
+                                <li>
+                                    <i class='bx bx-folder bm'></i>
+                                    <p>Папки</p>
+                                </li>
+                                <li>
+                                    <i class='bx bxs-phone-call bn'></i>
+                                    <p>Настройки звонков</p>
+                                </li>
+                                <li>
+                                    <i class='bx bx-world bb'></i>
+                                    <p>Язык <span>Русский</span></p>
+                                </li>
+                            </ul>
+                            <div class="eye_div">
+                                <div class="eye">
+                                    <i class='bx bx-low-vision'></i>
+                                    <p>Маштаб по умолчанию</p>
+                                </div>
+                                <label class="switch">
+                                    <input type="checkbox">
+                                    <span class="slider round"></span>
+                                </label>
+                            </div>
+                            <ul class="protsent_div">
+                                <li>
+                                    <p>100%</p>
+                                </li>
+                                <li>
+                                    <p>125%</p>
+                                </li>
+                                <li>
+                                    <p>150%</p>
+                                </li>
+                                <li>
+                                    <p>200%</p>
+                                </li>
+                                <li>
+                                    <p>250%</p>
+                                </li>
+                                <li>
+                                    <p>300%</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="div_contacts">
+                <input type="search" placeholder="search...." id="search">
+                <div class="akaunts">
+                    <ul class="akaunt_ul">
+                        <li class="lili item ">
+                            <img src="https://i.pinimg.com/236x/5a/09/de/5a09de0ffde4591db1688d5b3f4814a5.jpg?nii=t"
+                                alt="photo">
+                            <div class="infor_acc">
+                                <h2 class="h2_name">Aizen Souske</h2>
+                             
+                            </div>
+                        </li>
+                        <li class="ilil item ">
+                            <img src="https://animehappy.ru/image/cache/catalog/%20значки/Пак_26.04.22/Bleach/Byakuya%20Kuchiki/uytu-228x228.jpg"
+                                alt="photo">
+                            <div class="infor_acc">
+                                <h2>Kuchiki Byakuya</h2>
+                            </div>
+                        </li>
+                        <li class="item lile ">
+                            <img src="https://pbs.twimg.com/profile_images/1394463205104226306/QtrDhHdu_400x400.jpg"
+                                alt="photo">
+                            <div class="infor_acc">
+                                <h2>Ichigo kurosaki</h2>
+                            </div>
+                        </li>
+                        <li class="item ulli ">
+                            <img src="https://avatars.mds.yandex.net/i?id=21d8d8855faff9cb7bcbf9c4c13de3bf-4298412-images-thumbs&n=13"
+                                alt="photo">
+                            <div class="infor_acc">
+                                <h2>Renji Abaray</h2>
+                            </div>
+                        </li>
+                        <li class="item ullio " >
+                            <img class="imgclass" src="https://banner2.cleanpng.com/20180520/iug/kisspng-computer-icons-user-profile-synonyms-and-antonyms-5b013f455c55c1.0171283215268083893782.jpg"
+                                alt="photo">
+                            <div class="infor_accs">
+                                <h2 class="addHtwo"></h2>
+                                <h2 class="subAdd"></h2>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="div_messege">
+                <div id="lppp">
+                    <div class="profil_div">
+                        <div class="naems_div">
+                            <h2 class="name">Выберите чат</h2>
+                            <p class="sub_name">!!!</p>
+                        </div>
+                        <div class="pros_div">
+                            <ul>
+                                <li>
+                                    <i class='bx bxs-user-circle'></i>
+                                    <p>Добавить аккаунт</p>
+                                </li>
+                                <li class="liill">
+                                    <i class='bx bx-window-close'></i>
+                                    <p>Выйти</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <ul class="icons_div">
+                        <li>
+                            <i class='bx bx-search-alt-2'></i>
+                        </li>
+                        <li>
+                            <i class='bx bx-phone-call'></i>
+                        </li>
+                        <li>
+                            <button class="profil_menu"><i class='bx bx-dots-vertical-rounded'></i></button>
+                        </li>
+                    </ul>
+                </div>
+                <form class="inputs_div">
+                    <ul class="meesge">
+
+                    </ul>
+                    <div class="inputs">
+                        <input type="text" placeholder="Написать сообщение..." id="nameInputt" required>
+                        <button class="emojis_button"><i class='bx bx-paper-plane'></i></button>
+                        <button class="emo_button"><i class='bx bx-smile'></i></button>
+                        <i class='bx bx-link-alt link_bx' ></i>
+                        
+                    </div>
+                    <div class="pro_div">
+
+                    </div>
+                </form>
+                <div class="stiker_vid">
+                    <ul class="stiker_ul">
+
+
+                    </ul>
+                </div>
+            </div>
+            <div class="div_messege1">
+                <div id="lppp">
+                    <div class="profil_diva">
+                        <div class="naems_div">
+                            <h2 class="names"></h2>
+                            <p class="sub_names"></p>
+                        </div>
+                        <div class="pros_divs">
+                            <ul>
+                                <li>
+                                    <i class='bx bxs-user-circle'></i>
+                                    <p>Добавить аккаунт</p>
+                                </li>
+                                <li class="liill">
+                                    <i class='bx bx-window-close'></i>
+                                    <p>Выйти</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <ul class="icons_div">
+                        <li>
+                            <i class='bx bx-search-alt-2'></i>
+                        </li>
+                        <li>
+                            <i class='bx bx-phone-call'></i>
+                        </li>
+                        <li>
+                            <button class="profil_menus"><i class='bx bx-dots-vertical-rounded'></i></button>
+                        </li>
+                    </ul>
+                </div>
+                <form class="inputs_divs">
+                    <ul class="meesges">
+
+                    </ul>
+                    <div class="inputs">
+                        <input type="text" placeholder="Написать сообщение..." id="nameInputts" required>
+                        <button class="emojis_buttons"><i class='bx bx-paper-plane'></i></button>
+                        <button class="emo_buttons"><i class='bx bx-smile'></i></button>
+                        <i class='bx bx-link-alt link_bx' ></i>
+                    </div>
+                </form>
+                <div class="stiker_vids">
+                    <ul class="stiker_uls">
+
+
+                    </ul>
+                </div>
+            </div>
+            <div class="div_messege2">
+                <div id="lppp">
+                    <div class="profil_divs">
+                        <div class="naems_div">
+                            <h2 class="names2"></h2>
+                            <p class="sub_names2"></p>
+                        </div>
+                        <div class="pros_divv">
+                            <ul>
+                                <li>
+                                    <i class='bx bxs-user-circle'></i>
+                                    <p>Добавить аккаунт</p>
+                                </li>
+                                <li class="liill">
+                                    <i class='bx bx-window-close'></i>
+                                    <p>Выйти</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <ul class="icons_divs">
+                        <li>
+                            <i class='bx bx-search-alt-2'></i>
+                        </li>
+                        <li>
+                            <i class='bx bx-phone-call'></i>
+                        </li>
+                        <li>
+                            <button class="profil_menuv"><i class='bx bx-dots-vertical-rounded'></i></button>
+                        </li>
+                    </ul>
+                </div>
+                <form class="inputs_divs2">
+                    <ul class="meesges2">
+
+                    </ul>
+                    <div class="inputs2">
+                        <input type="text" placeholder="Написать сообщение..." id="nameInputts2" required>
+                        <button class="emojis_buttons2"><i class='bx bx-paper-plane'></i></button>
+                        <button class="emo_buttons2"><i class='bx bx-smile'></i></button>
+                        <i class='bx bx-link-alt link_bx' ></i>
+                        
+                    </div>
+                </form>
+                <div class="stiker_vids2">
+                    <ul class="stiker_uls2">
+
+
+                    </ul>
+                </div>
+            </div>
+            <div class="div_messege3">
+                <div  id="lppp">
+                    <div class="profil_divs3">
+                        <div class="naems_div">
+                            <h2 class="names3"></h2>
+                            <p class="sub_names3"></p>
+                        </div>
+                        <div class="pros_diva">
+                            <ul>
+                                <li>
+                                    <i class='bx bxs-user-circle'></i>
+                                    <p>Добавить аккаунт</p>
+                                </li>
+                                <li class="liill">
+                                    <i class='bx bx-window-close'></i>
+                                    <p>Выйти</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <ul class="icons_divs3">
+                        <li>
+                            <i class='bx bx-search-alt-2'></i>
+                        </li>
+                        <li>
+                            <i class='bx bx-phone-call'></i>
+                        </li>
+                        <li>
+                            <button class="profil_menua "><i class='bx bx-dots-vertical-rounded'></i></button>
+                        </li>
+                    </ul>
+                </div>
+                
+                <form class="inputs_divssss" id="forms">
+                    <ul class="meesges3">
+
+                    </ul>
+                    <div class="inputs3">
+                        <input type="text" placeholder="Написать сообщение..." id="nameInputts3" required>
+                        <button class="emojis_buttons3"><i class='bx bx-paper-plane'></i></button>
+                        <button class="emo_buttons3"><i class='bx bx-smile'></i></button>
+                        <i class='bx bx-link-alt link_bx' ></i>
+                    </div>
+                </form>
+                <div class="stiker_vids3">
+                    <ul class="stiker_uls3">
+
+
+                    </ul>
+                </div>
+            </div>
+
+            <div class="flie"></div>
+            <div class="infor_profilld">
+                <div class="dam_oy">
+                    <div class="lox">
+                        <h2>Информация</h2>
+                        <div class="icons_set">
+                            <i class='bx bx-dots-vertical-rounded ver_bx'></i>
+                            <i class='bx bx-x buttonon'></i>
+                        </div>
+                    </div>
+                    <div class="forin_divs">
+                        <img src="https://i.pinimg.com/236x/5a/09/de/5a09de0ffde4591db1688d5b3f4814a5.jpg?nii=t"
+                            alt="photo">
+                        <div class="infor_sets">
+                            <h2>Aizen Souske</h2>
+                            <p></p>
+                        </div>
+                    </div>
+                    <div class="asd">
+                        <i class='bx bx-info-circle'></i>
+                        <div class="ppp">
+
+                            <p class="p_sets">+998 90 063 03 38</p>
+                            <p class="set_p">@Bankai_02</p>
+                        </div>
+                    </div>
+                    <div class="eye_divs">
+                        <div class="eye">
+                            <i class='bx bxs-bell'></i>
+                            <p>Уведомления</p>
+                        </div>
+                        <label class="switch">
+                            <input type="checkbox">
+                            <span class="slider round"></span>
+                        </label>
+                    </div>
+                    <p class="bp">ОТПРАВИТЬ СООБЩЕНИЕ
+                    </p>
+                </div>
+            </div>
+
+            <div class="fliez"></div>
+            <div class="infor_profillds">
+                <div class="dam_oy">
+                    <div class="lox">
+                        <h2>Информация</h2>
+                        <div class="icons_set">
+                            <i class='bx bx-dots-vertical-rounded ver_bx'></i>
+                            <i class='bx bx-x buttonons'></i>
+                        </div>
+                    </div>
+                    <div class="forin_divs">
+                        <img src="https://animehappy.ru/image/cache/catalog/%20значки/Пак_26.04.22/Bleach/Byakuya%20Kuchiki/uytu-228x228.jpg"
+                            alt="photo">
+                        <div class="infor_sets">
+                            <h2>Kuchiki Byakuya</h2>
+                            <p></p>
+                        </div>
+                    </div>
+                    <div class="asd">
+                        <i class='bx bx-info-circle'></i>
+                        <div class="ppp">
+
+                            <p class="p_sets">+998 90 063 03 38</p>
+                            <p class="set_p">@Bankai_02</p>
+                        </div>
+                    </div>
+                    <div class="eye_divs">
+                        <div class="eye">
+                            <i class='bx bxs-bell'></i>
+                            <p>Уведомления</p>
+                        </div>
+                        <label class="switch">
+                            <input type="checkbox">
+                            <span class="slider round"></span>
+                        </label>
+                    </div>
+                    <p class="bp">ОТПРАВИТЬ СООБЩЕНИЕ
+                    </p>
+                </div>
+            </div>
+
+            <div class="fliech"></div>
+            <div class="infor_profilldsh">
+                <div class="dam_oy">
+                    <div class="lox">
+                        <h2>Информация</h2>
+                        <div class="icons_set">
+                            <i class='bx bx-dots-vertical-rounded ver_bx'></i>
+                            <i class='bx bx-x buttononsa'></i>
+                        </div>
+                    </div>
+                    <div class="forin_divs">
+                        <img src="https://pbs.twimg.com/profile_images/1394463205104226306/QtrDhHdu_400x400.jpg"
+                            alt="photo">
+                        <div class="infor_sets">
+                            <h2>Ichigo Kurosaki</h2>
+                            <p></p>
+                        </div>
+                    </div>
+                    <div class="asd">
+                        <i class='bx bx-info-circle'></i>
+                        <div class="ppp">
+
+                            <p class="p_sets">+998 90 063 03 38</p>
+                            <p class="set_p">@Bankai_02</p>
+                        </div>
+                    </div>
+                    <div class="eye_divs">
+                        <div class="eye">
+                            <i class='bx bxs-bell'></i>
+                            <p>Уведомления</p>
+                        </div>
+                        <label class="switch">
+                            <input type="checkbox">
+                            <span class="slider round"></span>
+                        </label>
+                    </div>
+                    <p class="bp">ОТПРАВИТЬ СООБЩЕНИЕ
+                    </p>
+                </div>
+            </div>
+
+
+            <div class="flielc"></div>
+            <div class="infor_profilldlh">
+                <div class="dam_oy">
+                    <div class="lox">
+                        <h2>Информация</h2>
+                        <div class="icons_set">
+                            <i class='bx bx-dots-vertical-rounded ver_bx'></i>
+                            <i class='bx bx-x buttononsh'></i>
+                        </div>
+                    </div>
+                    <div class="forin_divs">
+                        <img src="https://avatars.mds.yandex.net/i?id=21d8d8855faff9cb7bcbf9c4c13de3bf-4298412-images-thumbs&n=13"
+                            alt="photo">
+                        <div class="infor_sets">
+                            <h2>Renji Abaray</h2>
+                            <p></p>
+                        </div>
+                    </div>
+                    <div class="asd">
+                        <i class='bx bx-info-circle'></i>
+                        <div class="ppp">
+
+                            <p class="p_sets">+998 90 063 03 38</p>
+                            <p class="set_p">@Bankai_02</p>
+                        </div>
+                    </div>
+                    <div class="eye_divs">
+                        <div class="eye">
+                            <i class='bx bxs-bell'></i>
+                            <p>Уведомления</p>
+                        </div>
+                        <label class="switch">
+                            <input type="checkbox">
+                            <span class="slider round"></span>
+                        </label>
+                    </div>
+                    <p class="bp">ОТПРАВИТЬ СООБЩЕНИЕ
+                    </p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+
+
+    
+
+
+
+    <script src="./main.js"></script>
+</body>
+
+</html>
